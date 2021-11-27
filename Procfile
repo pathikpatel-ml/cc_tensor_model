@@ -1,1 +1,1 @@
-web: gunicorn flaskapp.wsgi:app
+web: gunicorn flaskapp.wsgi
