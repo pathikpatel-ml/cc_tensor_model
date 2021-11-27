@@ -1,1 +1,1 @@
-web: gunicorn flaskapp.wsgi
+web: gunicorn cc_tensor_model.flaskapp.wsgi
