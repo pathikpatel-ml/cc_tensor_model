@@ -93,7 +93,7 @@ DB_PASS = "998428904a9c98bfd3a7e20f0b338eb6b987dde755f49c9c8d8807ecb0524e78"
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 print("Database opened successfully")
 UPLOAD_FOLDER = 'static/uploads/'
-  
+print("upload successfull")
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
